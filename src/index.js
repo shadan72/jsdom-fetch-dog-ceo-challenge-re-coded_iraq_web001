@@ -49,7 +49,7 @@ fetch(breedUrl)
     
     
    
-    const dropDownList=document.querySelector('#breed-dropdown')
+    const dropDownList=document.querySelector('#breed-dropdown').selected=true
       dropDownList.forEach(element =>{
         if(element.value === 'a')
         return element
